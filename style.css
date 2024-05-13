@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* here i start the main section */
+
+.main {
+  background-color: #58b19f;
+  border-top-right-radius: 1100px;
+  -webkit-box-shadow: 39px -47px 88px 14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 39px -47px 88px 14px rgba(0, 0, 0, 0.75);
+  box-shadow: 39px -47px 88px 14px rgba(0, 0, 0, 0.75);
+
+  width: 100%;
+  height: 96vh;
+}
+/* here start the main logo css */
+#logo {
+  width: 150px;
+  height: 20%;
+  border-radius: 30px;
+  
+}
+.main h3 {
+  font-size: 3.4em;
+  font-weight: 700;
+}
+.main_name {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font: bolder;
+}
+.main h6 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1;
+  border-bottom: 4px solid rgb(233, 20, 109);
+  width: 21%;
+}
+/* main section buttons */
+.bt1 {
+  height: 50px;
+  width: 130px;
+  background-color: rgb(233, 20, 109);
+  border: none;
+  outline: none;
+  color: white;
+}
+.bt1:hover {
+  background-color: rgb(119, 20, 61);
+  transition: 0.5s;
+}
+.bt2 {
+  height: 50px;
+  width: 130px;
+  background-color: transparent;
+  border: 1px solid rgb(233, 20, 109);
+  outline: none;
+  color: rgb(233, 20, 109);
+}
+.bt2:hover {
+  background-color: rgb(119, 20, 61);
+  transition: 0.5s;
+  color: white;
+}
+/* here i started the about custom css */
+
+.about h1 {
+  font-size: 2.3em;
+  font-weight: 700;
+}
+.about img {
+  -webkit-box-shadow: 18px -9px 18px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 18px -9px 18px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 18px -9px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* here i started the about progress section */
+.progress {
+  background-color: rgb(245, 219, 219);
+  justify-content: flex-start;
+  border-radius: 50px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 25px;
+  width: 100%;
+  -webkit-box-shadow: inset -1px 25px 96px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset -1px 25px 96px 7px rgba(0, 0, 0, 0.75);
+  box-shadow: inset -1px 25px 96px 7px rgba(0, 0, 0, 0.75);
+}
+.progress p {
+  color: white;
+  padding: 21px 0px 0px 8px;
+  background-color: black;
+}
+#percent {
+  float: right;
+}
+/* progress value1 Css */
+.pro-value1 {
+  animation: mymove 3s infinite forwards;
+  border-radius: 50px;
+  line-height: 25px;
+  width: 0;
+}
+
+@keyframes mymove {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 98%;
+  }
+}
+/* progress value two Css */
+.pro-value2 {
+  animation: mymove2 3s infinite forwards;
+  border-radius: 50px;
+  line-height: 25px;
+  width: 0;
+}
+@keyframes mymove2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+/* progress value third css */
+.pro-value3 {
+  animation: mymove3 3s infinite forwards;
+  border-radius: 50px;
+  line-height: 25px;
+  width: 0;
+}
+@keyframes mymove3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+/* progress value fourth css */
+.pro-value4 {
+  animation: mymove4 3s infinite forwards;
+  border-radius: 50px;
+  line-height: 25px;
+  width: 0;
+}
+@keyframes mymove4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+
+/* the about section end here */
+
+/* here i started the services section */
+#services {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 8px 8px 10px;
+}
+
+.card {
+  border: none;
+  outline: none;
+  /* -webkit-box-shadow: -48px -14px 148px -7px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -48px -14px 148px -7px rgba(0, 0, 0, 0.5);
+  box-shadow: -48px -14px 148px -7px rgba(0, 0, 0, 0.5); */
+}
+.card p {
+  color: gray;
+}
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(230, 187, 187);
+  color: black;
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.card:hover .circle {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+/* here i started the footer section */
+#sub-footer {
+  background-color: #58b19f;
+}
+#social-icons {
+  margin-top: 50px;
+}
+#social-icons i {
+  font-size: 30px;
+  color: white;
+}
+ul li a {
+  text-decoration: none;
+  padding: 7px;
+}
+ul li:hover {
+  background-color: black;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+
+/* swiper css start */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+}
+
+.serial-number{
+  border: 2px solid white;
+  margin-left: 6px;
+  border-radius: 25px;
+  background-color: #58B19F;
+  font-weight: 500;
+}
+
+
+/* now here i start media queries  */
+@media (max-width: 768px) {
+  #About-me {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
